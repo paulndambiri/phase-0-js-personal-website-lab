@@ -1,0 +1,79 @@
+.header-container {
+  align-items: center;
+  padding: 5px;
+  background-color: #f8f9fa;
+}
+.main-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+#about {
+  margin-bottom: 3rem;
+}
+
+#about h2 {
+  margin-bottom: 1rem;
+}
+
+#about p {
+  max-width: 65ch;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+#about h3 {
+  margin: 2rem 0 1rem;
+}
+
+.skills-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+}
+
+.skills-grid li {
+  padding: 0.6rem 1rem;
+  text-align: center;
+  font-weight: 500;
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+  border-radius: 999px;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.skills-grid li:hover {
+  transform: translateY(-2px);
+  background: #dbeafe;
+}
+.project-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.project-card img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+.project-grid li:hover {
+  transform: translateY(-2px);
+  background: #dbeafe;
+}
